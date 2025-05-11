@@ -26,7 +26,7 @@ with open(CSV_FILE, mode='w', newline='') as file:
         # Variables para almacenamiento temporal
         temps = [None, None, None, None]
         
-        while True:
+        while True: 
             line = ser.readline().decode('utf-8').strip()
             if not line:
                 continue
